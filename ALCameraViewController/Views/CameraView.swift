@@ -147,9 +147,8 @@ public class CameraView: UIView {
     }
     
     private func cameraWithPosition(position: AVCaptureDevice.Position) -> AVCaptureDevice? {
-        guard let devices = AVCaptureDevice.devices(for: AVMediaType.video) else {
-            return nil
-        }
+        let devices = AVCaptureDevice.devices(for: AVMediaType.video)
+        
         return devices.filter { $0.position == position }.first
     }
     
