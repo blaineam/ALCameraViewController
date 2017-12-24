@@ -2,18 +2,18 @@
   "images" : [
     {
       "idiom" : "universal",
-      "scale" : "1x",
-      "filename" : "swapButton.png"
+      "filename" : "swapButton.png",
+      "scale" : "1x"
     },
     {
       "idiom" : "universal",
-      "scale" : "2x",
-      "filename" : "swapButton@2x.png"
+      "filename" : "swapButton@2x.png",
+      "scale" : "2x"
     },
     {
       "idiom" : "universal",
-      "scale" : "3x",
-      "filename" : "swapButton@3x.png"
+      "filename" : "swapButton@3x.png",
+      "scale" : "3x"
     }
   ],
   "info" : {
